@@ -1,0 +1,391 @@
+[
+  {
+    "repository": "https://github.com/AxiomOrdo/Gate-Zero",
+    "branches": [
+      {
+        "branch": "codex/gate0-freeze-crash-atomicity",
+        "localSha": "a127f004e161f2054fe0a183a29696022d862404",
+        "remoteSha": "a127f004e161f2054fe0a183a29696022d862404",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gate0-freeze-crash-atomicity",
+        "patchEquivalentToMain": 1,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-arena-assimilation",
+        "localSha": "12573b186ae6217ecc20ff27055f27c52f7fb286",
+        "remoteSha": "12573b186ae6217ecc20ff27055f27c52f7fb286",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-arena-assimilation",
+        "patchEquivalentToMain": 6,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-data-002-public-source-staging-ingestion",
+        "localSha": "d96e2a9611322ec799ac888d719b83ab8a66c689",
+        "remoteSha": "d96e2a9611322ec799ac888d719b83ab8a66c689",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-data-002-public-source-staging-ingestion",
+        "patchEquivalentToMain": 6,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-landing-publication",
+        "localSha": "65802cdf7c9c5f859b8b7e9b99c06c2b4b1d6a39",
+        "remoteSha": "65802cdf7c9c5f859b8b7e9b99c06c2b4b1d6a39",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-landing-publication",
+        "patchEquivalentToMain": 1,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-local-main-integration",
+        "localSha": "0e0ee71525c643f136a3b522189e6deed70bc730",
+        "remoteSha": "0e0ee71525c643f136a3b522189e6deed70bc730",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-local-main-integration",
+        "patchEquivalentToMain": 18,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-local-parity-foundation",
+        "localSha": "1702eecfc16470e0944d1f5e02d1b01a934f29ae",
+        "remoteSha": "1702eecfc16470e0944d1f5e02d1b01a934f29ae",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-local-parity-foundation",
+        "patchEquivalentToMain": 8,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-platform-001-partner-interfaces",
+        "localSha": "be663419d059bf8e34e432cf59a4467ddeac00ba",
+        "remoteSha": "be663419d059bf8e34e432cf59a4467ddeac00ba",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-platform-001-partner-interfaces",
+        "patchEquivalentToMain": 7,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-prod-001-staging-build",
+        "localSha": "66d8619660ce84cbd5b06b9bc943b13dc46c3450",
+        "remoteSha": "66d8619660ce84cbd5b06b9bc943b13dc46c3450",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-prod-001-staging-build",
+        "patchEquivalentToMain": 14,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/gz-production-dependency-remediation",
+        "localSha": "17f9d90670bf896361e858fbdc6e966eeb46b0f2",
+        "remoteSha": "17f9d90670bf896361e858fbdc6e966eeb46b0f2",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/gz-production-dependency-remediation",
+        "patchEquivalentToMain": 5,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/repository-preservation-20260907",
+        "localSha": "b4cc0d91f42a3e0f1bfdb069e15d427a09f1eee3",
+        "remoteSha": null,
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/codex/repository-preservation-20260907",
+        "patchEquivalentToMain": 0,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "main",
+        "localSha": "a127f004e161f2054fe0a183a29696022d862404",
+        "remoteSha": "b4cc0d91f42a3e0f1bfdb069e15d427a09f1eee3",
+        "github": "https://github.com/AxiomOrdo/Gate-Zero/tree/main",
+        "patchEquivalentToMain": 1,
+        "patchesNotEquivalentToMain": 0
+      }
+    ],
+    "worktrees": [
+      {
+        "path": "/home/axiomordo/Gate-Zero",
+        "head": "1702eecfc16470e0944d1f5e02d1b01a934f29ae",
+        "branch": "codex/gz-local-parity-foundation",
+        "status": "",
+        "ignoredFileCount": 33944,
+        "localOnlyNonDependencyPaths": [
+          ".swarm/backups/memory-2026-09-01T03-26-57-715Z.db",
+          ".swarm/memory.db",
+          ".swarm/memory.db-shm",
+          ".swarm/memory.db-wal",
+          ".swarm/schema.sql",
+          ".swarm/state.json",
+          "\".venv/bin/\\360\\235\\234\\213thon\"",
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-capture-1.json",
+          "proof/browser-evidence-capture-2.json",
+          "proof/browser-evidence-debug-1.json",
+          "proof/browser-evidence-debug-2.json",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-capture-1.json",
+          "proof/packet-state-capture-2.json",
+          "proof/packet-state-debug-1.json",
+          "proof/packet-state-debug-2.json",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-capture-1.json",
+          "proof/proof-report-capture-2.json",
+          "proof/proof-report-debug-1.json",
+          "proof/proof-report-debug-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json",
+          "ruvector.db"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-arena-assimilation",
+        "head": "12573b186ae6217ecc20ff27055f27c52f7fb286",
+        "branch": "codex/gz-arena-assimilation",
+        "status": "",
+        "ignoredFileCount": 27742,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-dependency-remediation",
+        "head": "17f9d90670bf896361e858fbdc6e966eeb46b0f2",
+        "branch": "codex/gz-production-dependency-remediation",
+        "status": "",
+        "ignoredFileCount": 28171,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-main-integration",
+        "head": "0e0ee71525c643f136a3b522189e6deed70bc730",
+        "branch": "codex/gz-local-main-integration",
+        "status": "",
+        "ignoredFileCount": 27742,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-partner-interfaces",
+        "head": "be663419d059bf8e34e432cf59a4467ddeac00ba",
+        "branch": "codex/gz-platform-001-partner-interfaces",
+        "status": "",
+        "ignoredFileCount": 28212,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/hosted-browser-final.png",
+          "proof/hosted-browser-report.json",
+          "proof/hosted-browser-sanitized.json",
+          "proof/hosted-security.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-preservation",
+        "head": "b4cc0d91f42a3e0f1bfdb069e15d427a09f1eee3",
+        "branch": "codex/repository-preservation-20260907",
+        "status": "?? docs/archive/repository-preservation-20260907/artifact-manifest.json\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-bucket-lifecycle.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-ci-33979210433.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-ci-watch.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-data-002-locked-node.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-data-002-npm-audit.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-data-002-npm-ls.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-dep-audit.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-dep-npm-ls.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-final-ci-watch.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-final-evidence-regressions.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-health-headers.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-health.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-home-headers.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-home.html.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-identity-v1.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-identity-v2.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-login-headers.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-login.html.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-main-ci-watch.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-main-deploy-watch.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-new-lock.tsv.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-old-lock.tsv.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-001-compose.yaml.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-001-npm-audit-final.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-001-npm-audit.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-001-npm-ls.txt.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-001-staging-tests-pre-evidence.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-platform-unauth.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-pr20-body.md.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-identity.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-logging.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-pubsub.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-registry.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-run.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-secrets.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-sql.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-prices-storage.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-alerts.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-backup.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-build.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-compose-config.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-compose-ps.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-correction-npm-ci.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-correction-sharp-tree.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-lint.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-make-clean.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-make-test.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-make-up.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-messaging-recovery.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-npm-audit.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-npm-ci.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-npm-ls.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-proof-twice.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-restore.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-qualification-typecheck.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-scheduler-prices.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-compose-build.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-compose-up.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-compose.yaml.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-final-build.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-final-up.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-local-proof.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-npm-audit.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-npm-ls.json.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-pr-body.md.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-pr.md.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-qualification.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-tenant-build.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-tenant-qualification.log.txt\n?? docs/archive/repository-preservation-20260907/historical-diagnostics/gz-staging-tenant-up.log.txt\n?? docs/archive/repository-preservation-20260907/historical-source/gz-staging-record-final.py.txt\n?? docs/archive/repository-preservation-20260907/publication/axiomordo-flagship.png\n?? docs/archive/repository-preservation-20260907/publication/candidate-desktop.png\n?? docs/archive/repository-preservation-20260907/publication/candidate-mobile.png\n?? docs/archive/repository-preservation-20260907/publication/gate-zero-live.png\n?? docs/archive/repository-preservation-20260907/publication/publication-report.md",
+        "ignoredFileCount": 0,
+        "localOnlyNonDependencyPaths": []
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-prod-001-staging-build",
+        "head": "66d8619660ce84cbd5b06b9bc943b13dc46c3450",
+        "branch": "codex/gz-prod-001-staging-build",
+        "status": "",
+        "ignoredFileCount": 28201,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/gz-backup-result.json",
+          "proof/gz-db-qualification-execution.json",
+          "proof/gz-engine-qualification-execution.json",
+          "proof/gz-restore-result.json",
+          "proof/gz-restore-tamper-result.json",
+          "proof/hosted-activation-gate.json",
+          "proof/hosted-backup-manifest.json",
+          "proof/hosted-browser-final.png",
+          "proof/hosted-browser-report.json",
+          "proof/hosted-browser-sanitized.json",
+          "proof/hosted-db-execution.json",
+          "proof/hosted-engine-execution.json",
+          "proof/hosted-manifest.json",
+          "proof/hosted-pubsub-redelivery.json",
+          "proof/hosted-restore-report.json",
+          "proof/hosted-security.json",
+          "proof/hosted-tamper-report.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json",
+          "proof/staging-additional-iam.json",
+          "proof/staging-connection.json",
+          "proof/staging-deployment-ci.json",
+          "proof/staging-extra-iam.json",
+          "proof/staging-final-inventory.json",
+          "proof/staging-final-services.json",
+          "proof/staging-iam-justified.json",
+          "proof/staging-identity.json",
+          "proof/staging-live-iam.json",
+          "proof/staging-logging.json",
+          "proof/staging-monitoring.json",
+          "proof/staging-org-policy.json",
+          "proof/staging-policy-permissions.json",
+          "proof/staging-public-access.json",
+          "proof/staging-readiness-final.json",
+          "proof/staging-required-ci.json",
+          "proof/staging-restore-stopped.json",
+          "proof/staging-scheduler-dispatch.json",
+          "proof/staging-scheduler-final.json",
+          "proof/staging-scheduler-first-execution.json",
+          "proof/staging-scheduler.json",
+          "proof/staging-secret-scan.json"
+        ]
+      },
+      {
+        "path": "/home/axiomordo/Gate-Zero-public-source-ingestion",
+        "head": "b4cc0d91f42a3e0f1bfdb069e15d427a09f1eee3",
+        "branch": "DETACHED",
+        "status": "",
+        "ignoredFileCount": 28202,
+        "localOnlyNonDependencyPaths": [
+          "infra/gateway/certs/tls.crt",
+          "infra/gateway/certs/tls.key",
+          "proof/backup-manifest.json",
+          "proof/backup.sql",
+          "proof/browser-evidence-run-1.json",
+          "proof/browser-evidence-run-2.json",
+          "proof/browser-parity-final.png",
+          "proof/browser-parity-report.json",
+          "proof/hosted-security.json",
+          "proof/messaging-recovery-proof.json",
+          "proof/objects.tar.gz",
+          "proof/packet-state-run-1.json",
+          "proof/packet-state-run-2.json",
+          "proof/proof-report-run-1.json",
+          "proof/proof-report-run-2.json",
+          "proof/public-source-staging-report.json",
+          "proof/public-source-staging-sanitized.json"
+        ]
+      }
+    ],
+    "stashes": "",
+    "commitsMissingFromAllRemoteRefs": ""
+  },
+  {
+    "repository": "https://github.com/AxiomOrdo/AxiomOrdo-Website",
+    "branches": [
+      {
+        "branch": "codex/gate-zero-flagship",
+        "localSha": "05aa9a09ad9f76857eaf44a195c4db350152be4b",
+        "remoteSha": "05aa9a09ad9f76857eaf44a195c4db350152be4b",
+        "github": "https://github.com/AxiomOrdo/AxiomOrdo-Website/tree/codex/gate-zero-flagship",
+        "patchEquivalentToMain": 1,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "codex/repository-preservation-20260907",
+        "localSha": "0e6cdf37940c275234054a79e30aeaec8621dad9",
+        "remoteSha": null,
+        "github": "https://github.com/AxiomOrdo/AxiomOrdo-Website/tree/codex/repository-preservation-20260907",
+        "patchEquivalentToMain": 0,
+        "patchesNotEquivalentToMain": 0
+      },
+      {
+        "branch": "main",
+        "localSha": "0e6cdf37940c275234054a79e30aeaec8621dad9",
+        "remoteSha": "0e6cdf37940c275234054a79e30aeaec8621dad9",
+        "github": "https://github.com/AxiomOrdo/AxiomOrdo-Website/tree/main",
+        "patchEquivalentToMain": 0,
+        "patchesNotEquivalentToMain": 0
+      }
+    ],
+    "worktrees": [
+      {
+        "path": "/home/axiomordo/AxiomOrdo-Website",
+        "head": "0e6cdf37940c275234054a79e30aeaec8621dad9",
+        "branch": "main",
+        "status": "",
+        "ignoredFileCount": 39130,
+        "localOnlyNonDependencyPaths": []
+      },
+      {
+        "path": "/home/axiomordo/AOPDF-DOCUMENT-ASSURANCE-V1",
+        "head": "e54b2b6851cf8eac3ba05ce371bdd23b758c5f84",
+        "branch": "DETACHED",
+        "status": "",
+        "ignoredFileCount": 29662,
+        "localOnlyNonDependencyPaths": []
+      },
+      {
+        "path": "/home/axiomordo/AxiomOrdo-Website-preservation",
+        "head": "0e6cdf37940c275234054a79e30aeaec8621dad9",
+        "branch": "codex/repository-preservation-20260907",
+        "status": "",
+        "ignoredFileCount": 0,
+        "localOnlyNonDependencyPaths": []
+      }
+    ],
+    "stashes": "",
+    "commitsMissingFromAllRemoteRefs": ""
+  }
+]
