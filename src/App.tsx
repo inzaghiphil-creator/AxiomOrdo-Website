@@ -671,21 +671,24 @@ function GroupNav() {
           </div>
         </Link>
         <div className="flex items-center gap-5 text-sm font-medium">
-          <a href="/ao-pdf" className="hidden text-white/65 transition hover:text-white sm:inline">
+          <a href="/ao-pdf" className="hidden text-white/65 transition hover:text-white lg:inline">
             AO-PDF
           </a>
-          <Link to={MERIDEN_INSIGHTS_PATH} className="hidden text-white/65 transition hover:text-white sm:inline">
+          <Link to={MERIDEN_INSIGHTS_PATH} className="hidden text-white/65 transition hover:text-white lg:inline">
             Meriden Insights
           </Link>
-          <a href={ARDS_URL} target="_blank" rel="noopener noreferrer" className="hidden text-white/65 transition hover:text-white sm:inline">
+          <a href={ARDS_URL} target="_blank" rel="noopener noreferrer" className="hidden text-white/65 transition hover:text-white lg:inline">
             ARDS Standard
           </a>
           <Link
             to={MERIDEN_PATH}
-            className="rounded-full border border-white/20 px-5 py-2 text-white transition hover:border-white/40 hover:bg-white/10"
+            className="hidden text-white/65 transition hover:text-white lg:inline"
           >
             Meriden Compliance
           </Link>
+          <a href="https://gate-zero.tech/" className="shrink-0 rounded-full border border-cyan-300/40 px-3 py-2 text-cyan-100 transition hover:bg-cyan-300/10 sm:px-5">
+            Gate Zero ↗
+          </a>
         </div>
       </nav>
     </header>
@@ -1897,6 +1900,14 @@ function AxiomOrdoHome() {
       {/* ── Platform Grid ── */}
       <section id="platforms" className="py-24 sm:py-32" style={{ background: "rgba(255,255,255,0.02)" }}>
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
+          <article aria-labelledby="gate-zero-flagship" className="mb-20 rounded-2xl border border-cyan-300/25 bg-cyan-300/5 p-7 sm:p-12">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-200">Our flagship project</p>
+            <h2 id="gate-zero-flagship" className="mt-5 text-4xl font-semibold tracking-tight text-white sm:text-6xl">Gate Zero</h2>
+            <p className="mt-5 max-w-3xl text-2xl leading-snug tracking-tight text-white sm:text-3xl">See what’s missing from your submission before you send it.</p>
+            <p className="mt-5 max-w-2xl text-base leading-7 text-white/65">Explore a synthetic example, inspect the recorded findings and download a sample handover. See how Gate Zero makes document issues and outstanding actions easier to review.</p>
+            <a href="https://gate-zero.tech/" className="mt-8 inline-flex rounded-full bg-cyan-200 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-100">Explore Gate Zero ↗</a>
+            <p className="mt-4 text-sm text-white/50">Public demonstration · Synthetic documents · Recorded engine results</p>
+          </article>
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-white/35">
             Our Platforms
           </p>
